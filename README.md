@@ -13,6 +13,7 @@ A modern, responsive photography portfolio website built with React, Vite, and T
 - **🚀 Fast Performance**: Built with Vite for lightning-fast development and builds
 - **📧 Contact Form**: Integrated contact form with validation
 - **🎯 SEO Optimized**: Proper meta tags and semantic HTML structure
+- **🌐 GitHub Pages Hosting**: Automatic deployment via GitHub Actions
 
 ## 🛠️ Tech Stack
 
@@ -23,6 +24,38 @@ A modern, responsive photography portfolio website built with React, Vite, and T
 - **Form Validation**: Built-in React validation
 - **Image Optimization**: Lorem Picsum API for placeholder images
 - **Code Quality**: ESLint with modern JavaScript standards
+
+## 🌐 Live Demo
+
+The photography portfolio is automatically deployed to GitHub Pages:
+
+**🔗 Live Site**: https://ethanpeters96.github.io/GB-TESTING/
+
+The site is automatically updated whenever code is pushed to the main branch.
+
+## 🚀 Deployment
+
+### Automatic GitHub Pages Deployment
+
+This project is configured for automatic deployment to GitHub Pages using GitHub Actions:
+
+- **Trigger**: Automatic deployment on push to `main` branch
+- **Build Process**: Vite build generates optimized static files  
+- **Dependencies**: Updated ESLint plugins for compatibility with ESLint 9
+- **Deployment**: Files are automatically deployed to GitHub Pages
+- **URL**: Available at `https://ethanpeters96.github.io/GB-TESTING/`
+
+### Manual Deployment
+
+If you want to deploy manually or to a different hosting service:
+
+```bash
+# Build the project
+npm run build
+
+# The built files will be in the 'dist' directory
+# Upload the contents of 'dist' to your hosting service
+```
 
 ## 🚀 Quick Start
 
